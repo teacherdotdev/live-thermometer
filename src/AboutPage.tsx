@@ -1,5 +1,7 @@
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
+import edtechathonLogo from './assets/logo.svg'
+import participantsPhoto from './assets/2026participants.jpeg'
 
 export function AboutPage() {
   return (
@@ -12,7 +14,14 @@ export function AboutPage() {
         </p>
 
         <section className="mb-6 rounded-lg bg-white p-5 ring-1 ring-slate-200">
-          <h2 className="mb-2 text-lg font-semibold">From the EdTech-a-thon</h2>
+          <div className="mb-3 flex items-center gap-3">
+            <img
+              src={edtechathonLogo}
+              alt="EdTech-a-thon logo"
+              className="h-12 w-12 shrink-0"
+            />
+            <h2 className="text-lg font-semibold">From the EdTech-a-thon</h2>
+          </div>
           <p className="text-sm leading-relaxed text-slate-700">
             Live Thermometer is a project from the{' '}
             <a
@@ -35,6 +44,17 @@ export function AboutPage() {
             </a>
             .
           </p>
+
+          <figure className="mx-auto mt-6 max-w-md -rotate-1 bg-white p-3 pb-4 shadow-lg ring-1 ring-slate-200">
+            <img
+              src={participantsPhoto}
+              alt="Participants at the 2026 EdTech-a-thon"
+              className="w-full"
+            />
+            <figcaption className="pt-6 pb-2 text-center text-sm text-slate-500">
+              EdTech-a-thon 2026
+            </figcaption>
+          </figure>
         </section>
 
         <section className="mb-6 rounded-lg bg-white p-5 ring-1 ring-slate-200">
