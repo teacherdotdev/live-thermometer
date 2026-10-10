@@ -33,7 +33,7 @@ Vite + React 19 + TypeScript + Tailwind v4 + react-router-dom. Deployed as a sta
 
 ## Feedback
 
-Email [directors@edtechathon.com](mailto:directors@edtechathon.com?subject=live%20thermometer%20feedback) — we'd love to hear what's working and what's not.
+Email [support@teacher.dev](mailto:support@teacher.dev?subject=live%20thermometer%20feedback) — we'd love to hear what's working and what's not.
 
 ## License
 

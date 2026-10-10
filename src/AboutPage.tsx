@@ -97,10 +97,10 @@ export function AboutPage() {
             pitch us an idea for a tool you wish existed. We're here to help.
           </p>
           <a
-            href="mailto:directors@edtechathon.com?subject=live%20thermometer%20feedback"
+            href="mailto:support@teacher.dev?subject=live%20thermometer%20feedback"
             className="inline-block rounded-md bg-slate-800 px-4 py-2 text-sm font-medium text-amber-50 ring-1 ring-slate-800 hover:bg-slate-700"
           >
-            Email directors@edtechathon.com
+            Email support@teacher.dev
           </a>
         </section>
       </main>
